@@ -1,0 +1,176 @@
+
+
+
+@media screen and (max-width: 959px) {
+    /* CSS rules to be applied when viewport width is 600px or less */
+    body{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       font-family: Arial, sans-serif;
+       height: 100%;
+    }
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .main-div #left-design #logo{
+        height: 30vh;
+    
+    }
+    .main-div .main-signUp > *{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-div .main-signUp .child-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-div .main-signUp #signup-container #png > *{
+        height: 2rem;
+        margin-right: 10px;
+    }
+    .main-div .main-signUp #signup-container .child-2 > *{
+        width: 95%;
+        height: 2rem;
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+        border: none;
+        border-bottom: 1px solid rgb(110, 103, 103);
+    }
+    .main-div .main-signUp #signup-container .child-2 > *:focus{
+        outline: none;
+
+    }
+    .main-div .main-signUp #signup-container .child-2 #btn {
+        width: 19rem;
+        border:none;
+        background-color: orangered;
+        color: white;
+        font-weight:bold;
+    }
+    .main-div .main-signUp #signup-container .child-2 #btn:active {
+        width: 19rem;
+        border:none;
+        background-color: rgb(189, 181, 178);
+        color: white;
+        font-weight:bold;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 960px) {
+    /* CSS rules to be applied when viewport width is 600px or less */
+    body{
+        background-image: url("main-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding: 2rem 10rem 2rem 10rem;
+        font-size: 90%;
+    }
+    .main-div{
+        padding-top: 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 70%;
+        border-radius: 10rem;
+    }
+    .main-div > *{
+        width: 50%;
+    }
+    .main-div #left-design{
+        background-image: url("inner-bg.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1rem 0px 0px 1rem;
+    
+    }
+    .main-div .main-signUp{
+        font-family: Arial, sans-serif;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px 1rem 1rem 0px;
+        padding: 5rem 0px 9rem 0px;
+    }
+    .main-div .main-signUp #signup-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        
+    }
+    .main-div .main-signUp #signup-container > *{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content:start ;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .main-div .main-signUp #signup-container .child-2 > *{
+        width: 95%;
+        height: 2rem;
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+        border: none;
+        border-bottom: 1px solid rgb(110, 103, 103);
+    }
+    .main-div .main-signUp #signup-container .child-2 > *:focus{
+        outline: none;
+    }
+    .main-div .main-signUp #signup-container .child-2 #btn {
+        width: 19rem;
+        border:none;
+        background-color: orangered;
+        color: white;
+        font-weight:bold;
+    }
+    .main-div .main-signUp #signup-container .child-2 #btn:hover{
+        transition: 0.5s;
+        background-color: rgb(161, 1, 1);
+    }
+    .main-div .main-signUp #signup-container .child-2 #btn:active {
+        width: 19rem;
+        border:none;
+        background-color: rgb(189, 181, 178);
+        color: white;
+        font-weight:bold;
+    }
+    .main-div .main-signUp #signup-container .child-3{
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-div .main-signUp #signup-container #png > *{
+        height: 2rem;
+        margin-right: 10px;
+    }
+    
+    
+    /*left side*/
+    .main-div #left-design{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-div #left-design img{
+        height: 60%;
+    }
+    
+}
+
+
